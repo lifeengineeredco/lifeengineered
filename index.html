@@ -14,6 +14,22 @@ body{
     justify-content:center;
     align-items:center;
     height:100vh;
+    font-family: Calibri, Arial, sans-serif;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:18px;
+}
+
+.title{
+    color:#f5f5f5;
+    font-size:3rem;
+    font-weight:700;
+    font-style:italic;
+    margin:0;
 }
 
 .dot{
@@ -26,14 +42,26 @@ body{
         0 0 30px #00ff66;
 }
 
+.subtitle{
+    color:#d0d0d0;
+    font-size:1rem;
+    margin:0;
+    letter-spacing:0.05em;
+}
+
 </style>
 
 </head>
 
 <body>
 
-<div class="dot"></div>
-<h1> Less friction. More life.</h1>
+<div class="container">
+    <h1 class="title">Life Engineered</h1>
+
+    <div class="dot"></div>
+
+    <p class="subtitle">Less friction. More life.</p>
+</div>
 
 </body>
 </html>
